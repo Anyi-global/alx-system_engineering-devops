@@ -1,2 +1,2 @@
 #!/bin/bash 
-cd /tmp 
+cd source ./10-back 
