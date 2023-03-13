@@ -5,7 +5,7 @@
 4. tail /etc/passwd => Displays the last 10 lines of /etc/passwd
 5. head /etc/passwd => Displays the first 10 lines of /etc/passwd
 6. head -3 iacta | tail -1 => Displs the third line of the file iacta
-7. echo "Best School" >> "\\*\\\\'\"Best School\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)" => Creates the file with the test Best School
+7. echo "Best School" >> "\\*\\\\'\"Best School\"\\'\\\\*$\\?\\*\\*\\*\\*\\*:)" => Creates the file with the text Best School
 8. ls -la > ls_cwd_content => Writes the result of ls -la into the file ls_cwd_content
 9. tail -n 1 < iacta >> iacta => Duplicates the last line of the file iacta
 10. find . -type f -name "*.js" -delete => deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
