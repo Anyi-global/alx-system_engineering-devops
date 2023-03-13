@@ -20,4 +20,6 @@
 19. tr "A" "Z" | "c" "e" => Replace all characters A and c from input to Z and e respectively.
 20. tr -d "Cc" => a script that removes all letters c and C from input
 21. rev => a script that reverse its input.
-22. cut -d ":" -f1,6 /etc/passwd | sort => a script that displays all users and their home directories, sorted by users. Based on the /etc/passwd files    
+22. cut -d ":" -f1,6 /etc/passwd | sort => a script that displays all users and their home directories, sorted by users. Based on the /etc/passwd files
+23. find . -empty | rev | cut -d '/' -f 1 | rev => a command that finds all empty files and directories in the current directory and all sub-directories
+24.     
