@@ -7,3 +7,4 @@
 6. head -3 iacta | tail -1 => Displs the third line of the file iacta
 7. echo "Best School" > \\\*\\\\"'\"Best School"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) => Creates the file with the test Best School
 8. ls -la > ls_cwd_content => Writes the result of ls -la into the file ls_cwd_content
+9. tail -n 1 < iacta >> iacta => Duplicates the last line of the file iacta
