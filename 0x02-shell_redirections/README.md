@@ -6,3 +6,4 @@
 5. head /etc/passwd => Displays the first 10 lines of /etc/passwd
 6. head -3 iacta | tail -1 => Displs the third line of the file iacta
 7. echo "Best School" > \\\*\\\\"'\"Best School"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) => Creates the file with the test Best School
+8. ls -la > ls_cwd_content => Writes the result of ls -la into the file ls_cwd_content
