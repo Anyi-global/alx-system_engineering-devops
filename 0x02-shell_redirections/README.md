@@ -24,4 +24,4 @@
 23. find . -empty | rev | cut -d '/' -f 1 | rev => a command that finds all empty files and directories in the current directory and all sub-directories
 24. find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f =>  a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 25. cut -c 1 | paste -s -d '' =>  a script that decodes acrostics that use the first letter of each line.
-26. 
+26. tail -n +2 | cut -f -1 | sort -k 1 | uniq -c | sort -rnk 1 | head -n 11 | rev | cut -d ' ' -f -1 | rev =>  a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. 
