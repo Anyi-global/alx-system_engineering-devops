@@ -16,4 +16,5 @@
 15. grep -i "bin" /etc/passwd => Display the number of lines that contain the pattern “bin” in the file /etc/passwd
 16. grep -iA 3 "root" /etc/passwd => Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
 17. grep -v "bin" /etc/passwd => Display all the lines in the file /etc/passwd that do not contain the pattern “bin”
-18.  
+18. grep -i '^[a-z]' /etc/ssh/sshd_config => Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+19.   
