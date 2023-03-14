@@ -4,4 +4,5 @@
 3. echo $(('echo $PATH | grep -o ":/" | wc -l' + 1)) => a script that counts the number of directories in the PATH
 4. printenv => a script that lists environment variables.
 5. set =>  a script that lists all local variables and environment variables, and functions.
-6. 
+6. BEST="School" =>  a script that creates a new local variable
+7.  
